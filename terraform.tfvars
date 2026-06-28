@@ -56,7 +56,7 @@ resource_group = {
     resource_group_name      = "rg-lg-prod"
     location                 = "CentralIndia"
     account_tier             = "Standard"
-    account_replication_type = "GRS"
+    account_replication_type = "LRS"
 
     tags = {
       environment = "staging"
